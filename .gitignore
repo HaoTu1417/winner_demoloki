@@ -1,0 +1,41 @@
+# Laravel specific
+/vendor/
+/node_modules/
+
+/public/storage
+/storage/*.key
+/.env
+/.env.*.backup
+
+# Laravel log and cache files
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+
+# System files
+Homestead.yaml
+Homestead.json
+.vagrant
+
+# IDE specific
+.idea
+.vscode
+.phpunit.result.cache
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+*.swo
+
+# Composer
+composer.phar
+
+# npm
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
